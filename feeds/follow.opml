@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>六万投资AI日报 - 信息源清单</title>
+    <title>六万投资AI日报 - 投资信息源清单</title>
   </head>
   <body>
+    <!-- A股专业源 (RSSHub) -->
+    <outline text="A股专业源">
+      <outline
+        text="财联社热门"
+        title="财联社热门 - A股游资/政策风向"
+        type="rss"
+        xmlUrl="https://rsshub.app/cls/hot"
+        htmlUrl="https://www.cls.cn/subject/v2Hot"
+      />
+      <outline
+        text="金十数据重要"
+        title="金十数据重要 - 全球宏观突发事件"
+        type="rss"
+        xmlUrl="https://rsshub.app/jin10/important"
+        htmlUrl="https://www.jin10.com/"
+      />
+      <outline
+        text="华尔街见闻热门"
+        title="华尔街见闻热门 - 全球宏观动态"
+        type="rss"
+        xmlUrl="https://rsshub.app/wallstreetcn/hot"
+        htmlUrl="https://wallstreetcn.com/"
+      />
+      <outline
+        text="东财策略研报"
+        title="东财策略研报 - A股策略深度研究"
+        type="rss"
+        xmlUrl="https://rsshub.app/eastmoney/report/strategyreport"
+        htmlUrl="https://data.eastmoney.com/report/strategy"
+      />
+      <outline
+        text="东财券商晨报"
+        title="东财券商晨报 - 券商晨会推荐"
+        type="rss"
+        xmlUrl="https://rsshub.app/eastmoney/report/brokerreport"
+        htmlUrl="https://data.eastmoney.com/report/broker"
+      />
+      <outline
+        text="东财宏观研究"
+        title="东财宏观研究 - 中国宏观深度分析"
+        type="rss"
+        xmlUrl="https://rsshub.app/eastmoney/report/macresearch"
+        htmlUrl="https://data.eastmoney.com/report/macro"
+      />
+    </outline>
+
     <!-- 官方交易所公告 -->
     <outline text="官方交易所公告">
       <outline
@@ -29,7 +75,46 @@
       />
     </outline>
 
-    <!-- 持仓股官方 -->
+    <!-- 全球投资媒体 (直接RSS) -->
+    <outline text="全球投资媒体">
+      <outline
+        text="Bloomberg Markets"
+        title="Bloomberg Markets - 华尔街资金流向"
+        type="rss"
+        xmlUrl="https://feeds.bloomberg.com/markets/news.rss"
+        htmlUrl="https://www.bloomberg.com/markets"
+      />
+      <outline
+        text="FT Markets"
+        title="FT Markets - 全球市场动态"
+        type="rss"
+        xmlUrl="https://www.ft.com/markets?format=rss"
+        htmlUrl="https://www.ft.com/markets"
+      />
+      <outline
+        text="The Economist"
+        title="The Economist - 全球宏观定调"
+        type="rss"
+        xmlUrl="https://www.economist.com/finance-and-economics/rss.xml"
+        htmlUrl="https://www.economist.com/finance-and-economics"
+      />
+      <outline
+        text="Seeking Alpha Editors"
+        title="Seeking Alpha - 美股深度逻辑"
+        type="rss"
+        xmlUrl="https://seekingalpha.com/tag/editors-picks.xml"
+        htmlUrl="https://seekingalpha.com"
+      />
+      <outline
+        text="MarketBeat美股"
+        title="MarketBeat - 美股异动警报"
+        type="rss"
+        xmlUrl="https://www.marketbeat.com/rss/instant-alerts.xml"
+        htmlUrl="https://www.marketbeat.com"
+      />
+    </outline>
+
+    <!-- 持仓股IR -->
     <outline text="持仓股官方IR">
       <outline
         text="格力电器IR"
@@ -61,26 +146,8 @@
       />
     </outline>
 
-    <!-- 雪球 - 投资数据 -->
-    <outline text="投资数据平台">
-      <outline
-        text="雪球热门"
-        title="雪球热门内容"
-        type="rss"
-        xmlUrl="https://xueqiu.com/hots/time/rss"
-        htmlUrl="https://xueqiu.com"
-      />
-      <outline
-        text="东方财富A股"
-        title="东方财富A股"
-        type="rss"
-        xmlUrl="http://feed.eastmoney.com/market.aspx?type=rss&amp;id=hs_a"
-        htmlUrl="http://www.eastmoney.com"
-      />
-    </outline>
-
     <!-- AI/科技新闻 -->
-    <outline text="AI/科技新闻源">
+    <outline text="AI/科技新闻">
       <outline
         text="OpenAI News"
         title="OpenAI News"
@@ -146,7 +213,7 @@
       />
     </outline>
 
-    <!-- 技术博客 -->
+    <!-- 技术博主 -->
     <outline text="技术博主">
       <outline
         text="宝玉"
