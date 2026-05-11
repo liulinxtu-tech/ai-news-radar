@@ -10,42 +10,42 @@
         text="财联社热门"
         title="财联社热门 - A股游资/政策风向"
         type="rss"
-        xmlUrl="https://rsshub.app/cls/hot"
+        xmlUrl="https://rsshub.rssforever.com/cls/hot"
         htmlUrl="https://www.cls.cn/subject/v2Hot"
       />
       <outline
         text="金十数据重要"
         title="金十数据重要 - 全球宏观突发事件"
         type="rss"
-        xmlUrl="https://rsshub.app/jin10/important"
+        xmlUrl="https://rsshub.rssforever.com/jin10/important"
         htmlUrl="https://www.jin10.com/"
       />
       <outline
         text="华尔街见闻热门"
         title="华尔街见闻热门 - 全球宏观动态"
         type="rss"
-        xmlUrl="https://rsshub.app/wallstreetcn/hot"
+        xmlUrl="https://rsshub.rssforever.com/wallstreetcn/hot"
         htmlUrl="https://wallstreetcn.com/"
       />
       <outline
         text="东财策略研报"
         title="东财策略研报 - A股策略深度研究"
         type="rss"
-        xmlUrl="https://rsshub.app/eastmoney/report/strategyreport"
+        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/strategyreport"
         htmlUrl="https://data.eastmoney.com/report/strategy"
       />
       <outline
         text="东财券商晨报"
         title="东财券商晨报 - 券商晨会推荐"
         type="rss"
-        xmlUrl="https://rsshub.app/eastmoney/report/brokerreport"
+        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/brokerreport"
         htmlUrl="https://data.eastmoney.com/report/broker"
       />
       <outline
         text="东财宏观研究"
         title="东财宏观研究 - 中国宏观深度分析"
         type="rss"
-        xmlUrl="https://rsshub.app/eastmoney/report/macresearch"
+        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/macresearch"
         htmlUrl="https://data.eastmoney.com/report/macro"
       />
     </outline>
