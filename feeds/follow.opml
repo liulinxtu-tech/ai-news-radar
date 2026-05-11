@@ -28,13 +28,6 @@
         htmlUrl="https://www.jin10.com/"
       />
       <outline
-        text="华尔街见闻热门"
-        title="华尔街见闻热门 - 全球宏观动态"
-        type="rss"
-        xmlUrl="https://rsshub.rssforever.com/wallstreetcn/hot"
-        htmlUrl="https://wallstreetcn.com/"
-      />
-      <outline
         text="东财券商晨报"
         title="东财券商晨报 - 券商晨会推荐"
         type="rss"
@@ -72,6 +65,20 @@
         type="rss"
         xmlUrl="https://www.economist.com/finance-and-economics/rss.xml"
         htmlUrl="https://www.economist.com/finance-and-economics"
+      />
+      <outline
+        text="第一财经"
+        title="第一财经 - 中国财经"
+        type="rss"
+        xmlUrl="https://rsshub.rssforever.com/yicai/news"
+        htmlUrl="https://www.yicai.com/"
+      />
+      <outline
+        text="36氪"
+        title="36氪 - 科技财经"
+        type="rss"
+        xmlUrl="https://rsshub.rssforever.com/36kr/news"
+        htmlUrl="https://36kr.com/"
       />
     </outline>
 
