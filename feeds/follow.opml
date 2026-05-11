@@ -4,6 +4,38 @@
     <title>六万投资AI日报 - 投资信息源清单</title>
   </head>
   <body>
+    <!-- 持仓股官方IR -->
+    <outline text="持仓股IR">
+      <outline
+        text="格力电器IR"
+        title="格力电器投资者关系"
+        type="rss"
+        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=000651"
+        htmlUrl="http://www.gree.com.cn/ir"
+      />
+      <outline
+        text="腾讯控股IR"
+        title="腾讯控股投资者关系"
+        type="rss"
+        xmlUrl="https://www.hkexnews.hk/media/rss/00700_rss.xml"
+        htmlUrl="https://www.tencent.com/ir"
+      />
+      <outline
+        text="五粮液IR"
+        title="五粮液投资者关系"
+        type="rss"
+        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=000858"
+        htmlUrl="http://www.wuliangye.com.cn"
+      />
+      <outline
+        text="中国平安IR"
+        title="中国平安投资者关系"
+        type="rss"
+        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=601318"
+        htmlUrl="http://www.pingan.com/ir"
+      />
+    </outline>
+
     <!-- A股专业源 (RSSHub) -->
     <outline text="A股专业源">
       <outline
@@ -28,13 +60,6 @@
         htmlUrl="https://wallstreetcn.com/"
       />
       <outline
-        text="东财策略研报"
-        title="东财策略研报 - A股策略深度研究"
-        type="rss"
-        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/strategyreport"
-        htmlUrl="https://data.eastmoney.com/report/strategy"
-      />
-      <outline
         text="东财券商晨报"
         title="东财券商晨报 - 券商晨会推荐"
         type="rss"
@@ -42,36 +67,18 @@
         htmlUrl="https://data.eastmoney.com/report/broker"
       />
       <outline
+        text="东财策略研报"
+        title="东财策略研报 - A股策略深度研究"
+        type="rss"
+        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/strategyreport"
+        htmlUrl="https://data.eastmoney.com/report/strategy"
+      />
+      <outline
         text="东财宏观研究"
         title="东财宏观研究 - 中国宏观深度分析"
         type="rss"
         xmlUrl="https://rsshub.rssforever.com/eastmoney/report/macresearch"
         htmlUrl="https://data.eastmoney.com/report/macro"
-      />
-    </outline>
-
-    <!-- 官方交易所公告 -->
-    <outline text="官方交易所公告">
-      <outline
-        text="港交所披露易"
-        title="港交所披露易"
-        type="rss"
-        xmlUrl="https://www.hkexnews.hk/rss/news_rss.xml"
-        htmlUrl="https://www.hkexnews.hk"
-      />
-      <outline
-        text="深交所公告"
-        title="深交所公告"
-        type="rss"
-        xmlUrl="http://www.szse.cn/api/report/ShowArticle/data?SHOWTYPE=JSON&amp;CATALOGID=1357&amp;txtDate=&amp;random=0.5"
-        htmlUrl="http://www.szse.cn"
-      />
-      <outline
-        text="上交所公告"
-        title="上交所公告"
-        type="rss"
-        xmlUrl="http://www.sse.com.cn/rssnews/news_rss.xml"
-        htmlUrl="http://www.sse.com.cn"
       />
     </outline>
 
@@ -114,35 +121,28 @@
       />
     </outline>
 
-    <!-- 持仓股IR -->
-    <outline text="持仓股官方IR">
+    <!-- 官方交易所公告 -->
+    <outline text="官方交易所公告">
       <outline
-        text="格力电器IR"
-        title="格力电器投资者关系"
+        text="港交所披露易"
+        title="港交所披露易"
         type="rss"
-        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=000651"
-        htmlUrl="http://www.gree.com.cn/ir"
+        xmlUrl="https://www.hkexnews.hk/rss/news_rss.xml"
+        htmlUrl="https://www.hkexnews.hk"
       />
       <outline
-        text="腾讯控股IR"
-        title="腾讯控股投资者关系"
+        text="深交所公告"
+        title="深交所公告"
         type="rss"
-        xmlUrl="https://www.hkexnews.hk/media/rss/00700_rss.xml"
-        htmlUrl="https://www.tencent.com/ir"
+        xmlUrl="http://www.szse.cn/api/report/ShowArticle/data?SHOWTYPE=JSON&amp;CATALOGID=1357&amp;txtDate=&amp;random=0.5"
+        htmlUrl="http://www.szse.cn"
       />
       <outline
-        text="五粮液IR"
-        title="五粮液投资者关系"
+        text="上交所公告"
+        title="上交所公告"
         type="rss"
-        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=000858"
-        htmlUrl="http://www.wuliangye.com.cn"
-      />
-      <outline
-        text="中国平安IR"
-        title="中国平安投资者关系"
-        type="rss"
-        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=601318"
-        htmlUrl="http://www.pingan.com/ir"
+        xmlUrl="http://www.sse.com.cn/rssnews/news_rss.xml"
+        htmlUrl="http://www.sse.com.cn"
       />
     </outline>
 
