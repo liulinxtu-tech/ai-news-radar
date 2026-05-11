@@ -7,6 +7,13 @@
     <!-- A股专业源 -->
     <outline text="A股专业源">
       <outline
+        text="财联社电报"
+        title="财联社电报 - 实时财经快讯"
+        type="rss"
+        xmlUrl="https://rsshub.rssforever.com/cls/telegraph"
+        htmlUrl="https://www.cls.cn/telegraph"
+      />
+      <outline
         text="财联社热门"
         title="财联社热门 - A股游资/政策风向"
         type="rss"
@@ -68,7 +75,7 @@
       />
     </outline>
 
- AI/科技 -->
+    <!-- AI/科技 -->
     <outline text="AI/科技">
       <outline
         text="OpenAI News"
