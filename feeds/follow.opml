@@ -4,39 +4,7 @@
     <title>六万投资AI日报 - 投资信息源清单</title>
   </head>
   <body>
-    <!-- 持仓股官方IR -->
-    <outline text="持仓股IR">
-      <outline
-        text="格力电器IR"
-        title="格力电器投资者关系"
-        type="rss"
-        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=000651"
-        htmlUrl="http://www.gree.com.cn/ir"
-      />
-      <outline
-        text="腾讯控股IR"
-        title="腾讯控股投资者关系"
-        type="rss"
-        xmlUrl="https://www.hkexnews.hk/media/rss/00700_rss.xml"
-        htmlUrl="https://www.tencent.com/ir"
-      />
-      <outline
-        text="五粮液IR"
-        title="五粮液投资者关系"
-        type="rss"
-        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=000858"
-        htmlUrl="http://www.wuliangye.com.cn"
-      />
-      <outline
-        text="中国平安IR"
-        title="中国平安投资者关系"
-        type="rss"
-        xmlUrl="http://www.cninfo.org.cn/new/hisNews/RssHisNews?stockcode=601318"
-        htmlUrl="http://www.pingan.com/ir"
-      />
-    </outline>
-
-    <!-- A股专业源 (RSSHub) -->
+    <!-- A股专业源 -->
     <outline text="A股专业源">
       <outline
         text="财联社热门"
@@ -73,16 +41,9 @@
         xmlUrl="https://rsshub.rssforever.com/eastmoney/report/strategyreport"
         htmlUrl="https://data.eastmoney.com/report/strategy"
       />
-      <outline
-        text="东财宏观研究"
-        title="东财宏观研究 - 中国宏观深度分析"
-        type="rss"
-        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/macresearch"
-        htmlUrl="https://data.eastmoney.com/report/macro"
-      />
     </outline>
 
-    <!-- 全球投资媒体 (直接RSS) -->
+    <!-- 全球投资媒体 -->
     <outline text="全球投资媒体">
       <outline
         text="Bloomberg Markets"
@@ -105,20 +66,6 @@
         xmlUrl="https://www.economist.com/finance-and-economics/rss.xml"
         htmlUrl="https://www.economist.com/finance-and-economics"
       />
-      <outline
-        text="Seeking Alpha Editors"
-        title="Seeking Alpha - 美股深度逻辑"
-        type="rss"
-        xmlUrl="https://seekingalpha.com/tag/editors-picks.xml"
-        htmlUrl="https://seekingalpha.com"
-      />
-      <outline
-        text="MarketBeat美股"
-        title="MarketBeat - 美股异动警报"
-        type="rss"
-        xmlUrl="https://www.marketbeat.com/rss/instant-alerts.xml"
-        htmlUrl="https://www.marketbeat.com"
-      />
     </outline>
 
     <!-- 官方交易所公告 -->
@@ -130,104 +77,16 @@
         xmlUrl="https://www.hkexnews.hk/rss/news_rss.xml"
         htmlUrl="https://www.hkexnews.hk"
       />
-      <outline
-        text="深交所公告"
-        title="深交所公告"
-        type="rss"
-        xmlUrl="http://www.szse.cn/api/report/ShowArticle/data?SHOWTYPE=JSON&amp;CATALOGID=1357&amp;txtDate=&amp;random=0.5"
-        htmlUrl="http://www.szse.cn"
-      />
-      <outline
-        text="上交所公告"
-        title="上交所公告"
-        type="rss"
-        xmlUrl="http://www.sse.com.cn/rssnews/news_rss.xml"
-        htmlUrl="http://www.sse.com.cn"
-      />
     </outline>
 
-    <!-- AI/科技新闻 -->
-    <outline text="AI/科技新闻">
+    <!-- AI/科技 -->
+    <outline text="AI/科技">
       <outline
         text="OpenAI News"
         title="OpenAI News"
         type="rss"
         xmlUrl="https://openai.com/news/rss.xml"
         htmlUrl="https://openai.com/news"
-      />
-      <outline
-        text="Hugging Face Blog"
-        title="Hugging Face Blog"
-        type="rss"
-        xmlUrl="https://huggingface.co/blog/feed.xml"
-        htmlUrl="https://huggingface.co/blog"
-      />
-      <outline
-        text="Google DeepMind Blog"
-        title="Google DeepMind Blog"
-        type="rss"
-        xmlUrl="https://deepmind.google/blog/rss.xml"
-        htmlUrl="https://deepmind.google/discover/blog/"
-      />
-      <outline
-        text="Google AI Blog"
-        title="Google AI Blog"
-        type="rss"
-        xmlUrl="https://blog.google/technology/ai/rss/"
-        htmlUrl="https://blog.google/technology/ai/"
-      />
-      <outline
-        text="Microsoft AI Blog"
-        title="Microsoft AI Blog"
-        type="rss"
-        xmlUrl="https://blogs.microsoft.com/ai/feed/"
-        htmlUrl="https://blogs.microsoft.com/ai/"
-      />
-      <outline
-        text="NVIDIA Generative AI"
-        title="NVIDIA Generative AI"
-        type="rss"
-        xmlUrl="https://developer.nvidia.com/blog/category/generative-ai/feed/"
-        htmlUrl="https://developer.nvidia.com/blog/category/generative-ai/"
-      />
-      <outline
-        text="InfoQ CN"
-        title="InfoQ CN"
-        type="rss"
-        xmlUrl="https://www.infoq.cn/feed"
-        htmlUrl="https://www.infoq.cn/"
-      />
-      <outline
-        text="Wired AI"
-        title="Wired AI"
-        type="rss"
-        xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss"
-        htmlUrl="https://www.wired.com/tag/artificial-intelligence/"
-      />
-      <outline
-        text="AI HOT"
-        title="AI HOT"
-        type="rss"
-        xmlUrl="https://aihot.virxact.com/feed/daily.xml"
-        htmlUrl="https://aihot.virxact.com"
-      />
-    </outline>
-
-    <!-- 技术博主 -->
-    <outline text="技术博主">
-      <outline
-        text="宝玉"
-        title="宝玉"
-        type="rss"
-        xmlUrl="https://baoyu.io/feed.xml"
-        htmlUrl="https://baoyu.io/"
-      />
-      <outline
-        text="Simon Willison"
-        title="Simon Willison"
-        type="rss"
-        xmlUrl="https://simonwillison.net/atom/everything/"
-        htmlUrl="https://simonwillison.net/"
       />
     </outline>
   </body>
