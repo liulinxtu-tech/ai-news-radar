@@ -68,18 +68,7 @@
       />
     </outline>
 
-    <!-- 官方交易所公告 -->
-    <outline text="官方交易所公告">
-      <outline
-        text="港交所披露易"
-        title="港交所披露易"
-        type="rss"
-        xmlUrl="https://www.hkexnews.hk/rss/news_rss.xml"
-        htmlUrl="https://www.hkexnews.hk"
-      />
-    </outline>
-
-    <!-- AI/科技 -->
+ AI/科技 -->
     <outline text="AI/科技">
       <outline
         text="OpenAI News"
