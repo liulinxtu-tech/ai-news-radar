@@ -2655,6 +2655,10 @@ def is_ai_related_record(record: dict[str, Any]) -> bool:
     if site_id == "zeli":
         return "24h" in source.lower() or "24h最热" in source
 
+    # 六万：OPML RSS来源（投资信息）默认保留，不过滤AI关键词
+    if site_id.startswith("opmlrss"):
+        return True
+
     if site_id == "tophub":
         source_l = source.lower()
         if has_mojibake_noise(source) or has_mojibake_noise(title):
