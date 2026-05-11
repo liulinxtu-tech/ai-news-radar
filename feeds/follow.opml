@@ -21,10 +21,10 @@
         htmlUrl="https://www.cls.cn/subject/v2Hot"
       />
       <outline
-        text="金十数据重要"
-        title="金十数据重要 - 全球宏观突发事件"
+        text="金十数据快讯"
+        title="金十数据快讯 - 全球市场实时动态"
         type="rss"
-        xmlUrl="https://rsshub.rssforever.com/jin10/important"
+        xmlUrl="https://rsshub.rssforever.com/jin10/flash"
         htmlUrl="https://www.jin10.com/"
       />
       <outline
