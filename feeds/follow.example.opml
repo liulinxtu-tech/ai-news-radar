@@ -27,20 +27,6 @@
         xmlUrl="https://rsshub.rssforever.com/jin10/flash"
         htmlUrl="https://www.jin10.com/"
       />
-      <outline
-        text="东财券商晨报"
-        title="东财券商晨报 - 券商晨会推荐"
-        type="rss"
-        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/brokerreport"
-        htmlUrl="https://data.eastmoney.com/report/broker"
-      />
-      <outline
-        text="东财策略研报"
-        title="东财策略研报 - A股策略深度研究"
-        type="rss"
-        xmlUrl="https://rsshub.rssforever.com/eastmoney/report/strategyreport"
-        htmlUrl="https://data.eastmoney.com/report/strategy"
-      />
     </outline>
 
     <!-- 全球投资媒体 -->
