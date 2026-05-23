@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-23T23:24:11.510242Z",
+  "generated_at": "2026-05-23T23:33:46.428456Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 231,
-      "duration_ms": 8232,
+      "duration_ms": 3033,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 260,
+      "duration_ms": 533,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 25,
-      "duration_ms": 348,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 455,
+      "duration_ms": 446,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 278,
+      "duration_ms": 346,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 357,
-      "duration_ms": 8820,
+      "item_count": 297,
+      "duration_ms": 279410,
       "error": null
     },
     {
@@ -54,15 +54,15 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1114,
+      "duration_ms": 6686,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 2869,
-      "duration_ms": 798,
+      "item_count": 2875,
+      "duration_ms": 1423,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "site_name": "Zeli",
       "ok": true,
       "item_count": 55,
-      "duration_ms": 464,
+      "duration_ms": 449,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 10,
-      "duration_ms": 238,
+      "duration_ms": 224,
       "error": null
     },
     {
@@ -86,23 +86,23 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1838,
+      "duration_ms": 1691,
       "error": null
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
-      "ok": true,
-      "item_count": 50,
-      "duration_ms": 1470,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 505123,
+      "error": "HTTPSConnectionPool(host='aihot.virxact.com', port=443): Max retries exceeded with url: /feed/daily.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='aihot.virxact.com', port=443) at 0x7f96340bc850>, 'Connection to aihot.virxact.com timed out. (connect timeout=30)'))"
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 146,
-      "duration_ms": 368,
+      "duration_ms": 618,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 1415,
-      "duration_ms": 8215,
+      "duration_ms": 11699,
       "error": null,
       "feed_count": 9,
       "effective_feed_count": 9,
@@ -121,12 +121,14 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 14,
-  "failed_sites": [],
+  "successful_sites": 13,
+  "failed_sites": [
+    "aihot"
+  ],
   "zero_item_sites": [],
-  "fetched_raw_items": 6337,
-  "items_before_topic_filter": 3249,
-  "items_in_24h": 419,
+  "fetched_raw_items": 6233,
+  "items_before_topic_filter": 3301,
+  "items_in_24h": 423,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -148,7 +150,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/36kr/news",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 2642,
+        "duration_ms": 4483,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -162,7 +164,7 @@
         "effective_feed_url": "https://feeds.bloomberg.com/markets/news.rss",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 410,
+        "duration_ms": 206,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -176,7 +178,7 @@
         "effective_feed_url": "https://www.ft.com/markets?format=rss",
         "ok": true,
         "item_count": 25,
-        "duration_ms": 399,
+        "duration_ms": 324,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -190,7 +192,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 967,
-        "duration_ms": 452,
+        "duration_ms": 755,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -204,7 +206,7 @@
         "effective_feed_url": "https://www.economist.com/finance-and-economics/rss.xml",
         "ok": true,
         "item_count": 300,
-        "duration_ms": 126,
+        "duration_ms": 166,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -218,7 +220,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/yicai/news",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 727,
+        "duration_ms": 2049,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -232,7 +234,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/hot",
         "ok": true,
         "item_count": 13,
-        "duration_ms": 1374,
+        "duration_ms": 2083,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -246,7 +248,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/telegraph",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 547,
+        "duration_ms": 810,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -260,7 +262,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/jin10/flash",
         "ok": true,
         "item_count": 0,
-        "duration_ms": 1538,
+        "duration_ms": 823,
         "error": null,
         "skipped": false,
         "skip_reason": null,
