@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-26T13:44:20.471746Z",
+  "generated_at": "2026-05-26T14:03:26.872096Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 192,
-      "duration_ms": 7819,
+      "duration_ms": 8427,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 205,
+      "duration_ms": 390,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 19,
-      "duration_ms": 167,
+      "duration_ms": 74,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 435,
+      "duration_ms": 373,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 335,
+      "duration_ms": 336,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 521,
-      "duration_ms": 15319,
+      "item_count": 525,
+      "duration_ms": 12939,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 672,
+      "duration_ms": 3225,
       "error": null
     },
     {
@@ -62,15 +62,15 @@
       "site_name": "TopHub",
       "ok": true,
       "item_count": 3049,
-      "duration_ms": 1558,
+      "duration_ms": 1375,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 72,
-      "duration_ms": 402,
+      "item_count": 71,
+      "duration_ms": 557,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 10,
-      "duration_ms": 253,
+      "duration_ms": 382,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1277,
+      "duration_ms": 1525,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1705,
+      "duration_ms": 1498,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 144,
-      "duration_ms": 419,
+      "duration_ms": 435,
       "error": null
     },
     {
@@ -110,8 +110,8 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 1417,
-      "duration_ms": 11798,
+      "item_count": 1416,
+      "duration_ms": 17454,
       "error": null,
       "feed_count": 9,
       "effective_feed_count": 9,
@@ -124,9 +124,9 @@
   "successful_sites": 14,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 6653,
-  "items_before_topic_filter": 6055,
-  "items_in_24h": 907,
+  "fetched_raw_items": 6655,
+  "items_before_topic_filter": 5181,
+  "items_in_24h": 882,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -134,7 +134,9 @@
     "effective_feed_total": 9,
     "ok_feeds": 9,
     "failed_feeds": [],
-    "zero_item_feeds": [],
+    "zero_item_feeds": [
+      "https://rsshub.rssforever.com/jin10/flash"
+    ],
     "skipped_feeds": [],
     "replaced_feeds": [],
     "feeds": [
@@ -146,7 +148,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/36kr/news",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 5001,
+        "duration_ms": 6917,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -160,7 +162,7 @@
         "effective_feed_url": "https://feeds.bloomberg.com/markets/news.rss",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 201,
+        "duration_ms": 318,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -174,7 +176,7 @@
         "effective_feed_url": "https://www.ft.com/markets?format=rss",
         "ok": true,
         "item_count": 25,
-        "duration_ms": 466,
+        "duration_ms": 521,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -188,7 +190,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 968,
-        "duration_ms": 634,
+        "duration_ms": 742,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -202,7 +204,7 @@
         "effective_feed_url": "https://www.economist.com/finance-and-economics/rss.xml",
         "ok": true,
         "item_count": 300,
-        "duration_ms": 185,
+        "duration_ms": 236,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -216,7 +218,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/yicai/news",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 1701,
+        "duration_ms": 1502,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -230,7 +232,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/hot",
         "ok": true,
         "item_count": 13,
-        "duration_ms": 1864,
+        "duration_ms": 5969,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -244,7 +246,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/telegraph",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 873,
+        "duration_ms": 614,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -257,8 +259,8 @@
         "feed_url": "https://rsshub.rssforever.com/jin10/flash",
         "effective_feed_url": "https://rsshub.rssforever.com/jin10/flash",
         "ok": true,
-        "item_count": 1,
-        "duration_ms": 873,
+        "item_count": 0,
+        "duration_ms": 635,
         "error": null,
         "skipped": false,
         "skip_reason": null,
