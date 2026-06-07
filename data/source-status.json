@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-07T23:02:57.216607Z",
+  "generated_at": "2026-06-07T23:50:07.223504Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 207,
-      "duration_ms": 13149,
+      "duration_ms": 5902,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 528,
+      "duration_ms": 269,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 18,
-      "duration_ms": 56,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 445,
+      "duration_ms": 393,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 410,
+      "duration_ms": 397,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 344,
-      "duration_ms": 18727,
+      "item_count": 347,
+      "duration_ms": 13136,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1122,
+      "duration_ms": 2812,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 2781,
-      "duration_ms": 1350,
+      "item_count": 2804,
+      "duration_ms": 1416,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 62,
-      "duration_ms": 572,
+      "item_count": 60,
+      "duration_ms": 495,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 10,
-      "duration_ms": 358,
+      "duration_ms": 239,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1927,
+      "duration_ms": 1259,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1448,
+      "duration_ms": 1487,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 145,
-      "duration_ms": 547,
+      "duration_ms": 618,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 2,
       "item_count": 1408,
-      "duration_ms": 8868,
+      "duration_ms": 45828,
       "error": "2 feeds failed",
       "feed_count": 9,
       "effective_feed_count": 9,
@@ -124,9 +124,9 @@
   "successful_sites": 14,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 6204,
-  "items_before_topic_filter": 3167,
-  "items_in_24h": 410,
+  "fetched_raw_items": 6228,
+  "items_before_topic_filter": 3402,
+  "items_in_24h": 439,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -149,7 +149,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/36kr/news",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 1604,
+        "duration_ms": 10992,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -163,7 +163,7 @@
         "effective_feed_url": "https://feeds.bloomberg.com/markets/news.rss",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 475,
+        "duration_ms": 181,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -177,7 +177,7 @@
         "effective_feed_url": "https://www.ft.com/markets?format=rss",
         "ok": true,
         "item_count": 25,
-        "duration_ms": 457,
+        "duration_ms": 442,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -191,7 +191,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 992,
-        "duration_ms": 695,
+        "duration_ms": 844,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -205,7 +205,7 @@
         "effective_feed_url": "https://www.economist.com/finance-and-economics/rss.xml",
         "ok": true,
         "item_count": 300,
-        "duration_ms": 265,
+        "duration_ms": 163,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -219,7 +219,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/yicai/news",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 955,
+        "duration_ms": 10097,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -233,8 +233,8 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/hot",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 2139,
-        "error": "503 Server Error: Service Unavailable for url: https://rsshub.rssforever.com/cls/hot",
+        "duration_ms": 12737,
+        "error": "HTTPSConnectionPool(host='rsshub.rssforever.com', port=443): Read timed out. (read timeout=12)",
         "skipped": false,
         "skip_reason": null,
         "replaced": false
@@ -247,7 +247,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/telegraph",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 1192,
+        "duration_ms": 9272,
         "error": "503 Server Error: Service Unavailable for url: https://rsshub.rssforever.com/cls/telegraph",
         "skipped": false,
         "skip_reason": null,
@@ -261,7 +261,7 @@
         "effective_feed_url": "https://rsshub.rssforever.com/jin10/flash",
         "ok": true,
         "item_count": 1,
-        "duration_ms": 1086,
+        "duration_ms": 1100,
         "error": null,
         "skipped": false,
         "skip_reason": null,
