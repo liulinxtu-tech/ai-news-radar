@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-10T04:03:41.057790Z",
+  "generated_at": "2026-08-11T10:02:41.594481Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 158,
-      "duration_ms": 2269,
+      "item_count": 170,
+      "duration_ms": 2763,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 20,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 27,
-      "duration_ms": 46,
+      "item_count": 40,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 386,
+      "duration_ms": 502,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 281,
+      "duration_ms": 283,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 344,
-      "duration_ms": 17159,
+      "item_count": 384,
+      "duration_ms": 14445,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 788,
+      "duration_ms": 558,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3020,
-      "duration_ms": 1680,
+      "item_count": 3027,
+      "duration_ms": 1818,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 72,
-      "duration_ms": 460,
+      "item_count": 80,
+      "duration_ms": 507,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 5041,
+      "duration_ms": 4996,
       "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ai.hubtoday.app', port=443): Failed to resolve 'ai.hubtoday.app' ([Errno -2] Name or service not known)\"))"
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 3170,
+      "duration_ms": 796,
       "error": null
     },
     {
@@ -94,29 +94,29 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 834,
+      "duration_ms": 754,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 122,
-      "duration_ms": 1238,
+      "item_count": 126,
+      "duration_ms": 1063,
       "error": null
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "ok": true,
-      "partial_failures": 4,
-      "item_count": 1461,
-      "duration_ms": 52783,
-      "error": "4 feeds failed",
+      "partial_failures": 3,
+      "item_count": 1498,
+      "duration_ms": 27251,
+      "error": "3 feeds failed",
       "feed_count": 9,
       "effective_feed_count": 9,
-      "ok_feed_count": 5,
-      "failed_feed_count": 4,
+      "ok_feed_count": 6,
+      "failed_feed_count": 3,
       "skipped_feed_count": 0,
       "replaced_feed_count": 0
     }
@@ -127,22 +127,23 @@
     "aihubtoday"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 6424,
-  "items_before_topic_filter": 2174,
-  "items_in_24h": 254,
+  "fetched_raw_items": 6545,
+  "items_before_topic_filter": 2701,
+  "items_in_24h": 419,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
     "feed_total": 9,
     "effective_feed_total": 9,
-    "ok_feeds": 5,
+    "ok_feeds": 6,
     "failed_feeds": [
       "https://rsshub.rssforever.com/36kr/news",
-      "https://rsshub.rssforever.com/yicai/news",
       "https://rsshub.rssforever.com/cls/hot",
       "https://rsshub.rssforever.com/cls/telegraph"
     ],
-    "zero_item_feeds": [],
+    "zero_item_feeds": [
+      "https://rsshub.rssforever.com/jin10/flash"
+    ],
     "skipped_feeds": [],
     "replaced_feeds": [],
     "feeds": [
@@ -154,8 +155,8 @@
         "effective_feed_url": "https://rsshub.rssforever.com/36kr/news",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 12651,
-        "error": "HTTPSConnectionPool(host='rsshub.rssforever.com', port=443): Read timed out. (read timeout=12)",
+        "duration_ms": 4886,
+        "error": "503 Server Error: Service Unavailable for url: https://rsshub.rssforever.com/36kr/news",
         "skipped": false,
         "skip_reason": null,
         "replaced": false
@@ -168,7 +169,7 @@
         "effective_feed_url": "https://feeds.bloomberg.com/markets/news.rss",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 366,
+        "duration_ms": 293,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -182,7 +183,7 @@
         "effective_feed_url": "https://www.ft.com/markets?format=rss",
         "ok": true,
         "item_count": 25,
-        "duration_ms": 408,
+        "duration_ms": 425,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -195,8 +196,8 @@
         "feed_url": "https://openai.com/news/rss.xml",
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
-        "item_count": 1115,
-        "duration_ms": 489,
+        "item_count": 1123,
+        "duration_ms": 651,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -210,7 +211,7 @@
         "effective_feed_url": "https://www.economist.com/finance-and-economics/rss.xml",
         "ok": true,
         "item_count": 300,
-        "duration_ms": 142,
+        "duration_ms": 181,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -222,10 +223,10 @@
         "feed_title": "第一财经 - 中国财经",
         "feed_url": "https://rsshub.rssforever.com/yicai/news",
         "effective_feed_url": "https://rsshub.rssforever.com/yicai/news",
-        "ok": false,
-        "item_count": 0,
-        "duration_ms": 12659,
-        "error": "HTTPSConnectionPool(host='rsshub.rssforever.com', port=443): Read timed out. (read timeout=12)",
+        "ok": true,
+        "item_count": 30,
+        "duration_ms": 5766,
+        "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false
@@ -238,8 +239,8 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/hot",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 12659,
-        "error": "HTTPSConnectionPool(host='rsshub.rssforever.com', port=443): Read timed out. (read timeout=12)",
+        "duration_ms": 7934,
+        "error": "503 Server Error: Service Unavailable for url: https://rsshub.rssforever.com/cls/hot",
         "skipped": false,
         "skip_reason": null,
         "replaced": false
@@ -252,8 +253,8 @@
         "effective_feed_url": "https://rsshub.rssforever.com/cls/telegraph",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 12664,
-        "error": "HTTPSConnectionPool(host='rsshub.rssforever.com', port=443): Read timed out. (read timeout=12)",
+        "duration_ms": 4889,
+        "error": "503 Server Error: Service Unavailable for url: https://rsshub.rssforever.com/cls/telegraph",
         "skipped": false,
         "skip_reason": null,
         "replaced": false
@@ -265,8 +266,8 @@
         "feed_url": "https://rsshub.rssforever.com/jin10/flash",
         "effective_feed_url": "https://rsshub.rssforever.com/jin10/flash",
         "ok": true,
-        "item_count": 1,
-        "duration_ms": 745,
+        "item_count": 0,
+        "duration_ms": 2226,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -294,6 +295,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-08-10"
+    "generated_date_utc": "2026-08-11"
   }
 }
